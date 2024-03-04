@@ -1,0 +1,109 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.discount-section {
+    padding: 80px 10px;
+    min-width: 375px;
+    height: 469px;
+    background-color: #fbfbfb;
+}
+
+.discount-banner-container {
+    position: relative;
+    border-radius: 12px;
+    width: 355px; width 100%
+    height: 102px;
+}
+
+.discount-banner-paragraph {
+    color: #FBFBFB;
+    background-color: #576f35;
+    border-radius: 12px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-right: 10px;
+
+
+}
+
+/*tab*/
+
+.discount-paragraph {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.04;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    position: absolute;
+    margin-top: auto;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .discount-section {
+        padding: 100px 16px;
+        min-width: 768px;
+        height: 488px;
+    }
+
+    .discount-banner-container {
+        width: 736px;
+        height: 86px;
+    }
+
+    .discount-banner-paragraph {
+        font-size: 64px;
+        line-height: 1.09;
+    }
+
+    .discount-paragraph {
+        font-size: 64px;
+        line-height: 1.09;
+        margin-top: -15px;
+    }
+}
+
+/*desktop*/
+
+@media screen and (min-width:1158px) {
+    .discount-section {
+        padding: 100px;
+        width: 1280px;
+        height: 440px;
+    }
+
+    .discount-banner-container {
+        width: 808px;
+        height: 86px;
+    }
+
+    .discount-banner-paragraph {
+        font-size: 76px;
+        line-height: 1.05;
+    }
+
+    .discount-paragraph {
+        font-size: 76px;
+        line-height: 1.05;
+    }
+}
